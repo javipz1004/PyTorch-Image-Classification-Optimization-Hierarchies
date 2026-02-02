@@ -1,8 +1,8 @@
-# 🧠 Clasificación Avanzada y Optimización en PyTorch (CIFAR)
+# Clasificación Avanzada y Optimización en PyTorch (CIFAR)
 
 Este repositorio contiene un estudio profundo sobre la optimización de procesos de entrenamiento y la implementación de lógica probabilística en redes neuronales utilizando el framework **PyTorch**.
 
-## 🚀 Contenido del Proyecto
+## Contenido del Proyecto
 
 El proyecto se divide en dos fases técnicas complementarias:
 
@@ -17,12 +17,12 @@ Aquí se abordó un problema complejo de 100 clases utilizando la estructura de 
 - **Arquitectura Multitarea:** El modelo predice simultáneamente etiquetas finas y gruesas.
 - **Lógica Bayesiana:** Aplicación de probabilidad condicionada $P(A|B)$ para filtrar predicciones. Por ejemplo, el sistema valida que una predicción de "Perro" sea coherente con la superclase "Mamíferos".
 
-## 📂 Estructura del Repositorio
+## Estructura del Repositorio
 - `notebooks/`: Contiene los archivos `.ipynb` con el código y las explicaciones paso a paso.
 - `requirements.txt`: Librerías necesarias para replicar el entorno.
 - `images/`: Capturas de las métricas de entrenamiento y comparativas de tiempo.
 
-## 🛠️ Instalación y Uso
+## Instalación y Uso
 1. Clona este repositorio:
    ```bash
    git clone [https://github.com/TU_USUARIO/TU_REPO.git](https://github.com/TU_USUARIO/TU_REPO.git)
@@ -31,7 +31,7 @@ Aquí se abordó un problema complejo de 100 clases utilizando la estructura de 
    ```bash
    pip install -r requirements.txt
 
-## 📊 Resultados Destacados
+## Resultados Destacados
 
 * Se logró una aceleración significativa mediante el uso de **GPU T4**, optimizando los tiempos de entrenamiento frente a la ejecución en CPU.
 * La implementación de la lógica jerárquica permitió estructurar mejor las predicciones en el dataset **CIFAR-100**, utilizando probabilidad condicionada para reducir errores semánticos entre clases finas y superclases.
